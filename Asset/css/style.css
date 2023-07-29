@@ -1,0 +1,208 @@
+/********** Fonts **********/
+
+/* @font-face {
+    font-family: "Segoe UI Historic", sans-serif;
+    src: url(../Fonts/Segoe\ ui\ historic.ttf);
+} */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/******** Default Css ********/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: 630px;
+}
+
+li {
+  list-style: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align-last: center;
+}
+
+/******* All Color ********/
+
+:root {
+  --icon-color: #000000;
+  --hover-icon: #737373;
+  --bg-color: #ffffff;
+  --hover-bg: #f2f2f2;
+  --font-color: #000000;
+  --border: #c7c7c7;
+}
+
+/********* Body Start ********/
+.main_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left_sidebar {
+  width: 20%;
+  border-right: 1px solid #dbdbdb;
+}
+.main_sidbar {
+  padding-top: 67px;
+}
+.right_sidebar {
+  width: 30%;
+  padding: 78px 0px;
+}
+.icon .top_img {
+  width: 111px;
+  margin: 33px 41px;
+}
+.icon ul li a img {
+  max-width: 100%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.icon ul li a {
+  margin: 10px 14px;
+}
+.icon ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+/*********** Left sidebar Start **********/
+
+/*********** Sidebar Menu Start **********/
+
+/*********** Left sidebar End **********/
+
+/*********** Middle section Start **********/
+.main_midle {
+  display: flex;
+  justify-content: space-around;
+}
+.midle_left {
+  display: flex;
+  align-items: center;
+}
+.midle_left span {
+  padding: 0px 5px;
+  font-size: 15px !important;
+}
+
+.midle_left img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.main_sidbar .post_img {
+  padding: 14px 140px;
+}
+
+/* //post like  */
+
+.post_icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 123px;
+}
+.post_icon ul {
+  display: flex;
+  margin-left: 4px;
+}
+.post_icon ul li {
+  padding: 0px 10px;
+}
+.like {
+  margin-left: 16px;
+}
+.like li {
+  padding: 5px 0px;
+}
+.icon_right {
+  margin-right: 12px;
+}
+.icon_right {
+  margin-right: 12px;
+}
+
+/* //right sidebar */
+
+.profile_left img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.image_info {
+  display: flex;
+  align-items: center;
+}
+.image_info span {
+  padding: 0px 10px;
+  margin-top: -28px;
+}
+.info {
+  margin: -29px 67px;
+}
+
+.suggest {
+  padding: 67px 0px;
+}
+.suggest li {
+  margin-bottom: -25px;
+}
+.profile_2left {
+  margin-top: -49px;
+  padding: 42px 0px;
+}
+.profile_2left img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.image_2info {
+  display: flex;
+  align-items: center;
+}
+.image_2info span {
+  padding: 0px 10px;
+  margin-top: -18px;
+}
+.twoinfo {
+  margin: -13px 46px;
+  font-size: 11px;
+}
+/*********** Post Section Start **********/
+
+/*** Post header ***/
+
+/*********** Post Section End **********/
+
+/*********** Right Sidebar Start **********/
+
+/*********** Right Sidebar End **********/
+
+/*********** Post Body End **********/
